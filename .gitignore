@@ -1,0 +1,91 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.nupkg
+*.snupkg
+*.nuspec
+*.nuproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.cache/
+
+# =========================
+# AWS SAM / Lambda / Serverless
+# =========================
+.aws-sam/
+samconfig.toml
+packaged.yaml
+template.packaged.yaml
+**/lambda-publish/
+**/publish/
+**/out/
+**/.serverless/
+
+# AWS Toolkit local state
+.aws-toolkit/
+
+# CloudFormation / deployment generated files
+**/cloudformation-output*.json
+
+# =========================
+# Local secrets / env files
+# =========================
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.*.json
+!appsettings.json
+
+# If you use user-secrets (shouldn't be committed)
+**/secrets/*.json
+
+# =========================
+# Node 
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
